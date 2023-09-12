@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #fd6e0a;
+}
+/* header and navigation styles */
+.header{
+    background-image:image-set(url("../images/header_bg.png")),image-set(url("../images/developer.png"));
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav li{
+    margin-left: 50px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn-primary{
+    color: #fff;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border:3px solid #fd6e0a;
+    padding: 18px 35px;
+    text-align: center;
+}
+.btn-second{
+    color: #fd6e0a;
+    margin-left: 5px;
+    /* margin-top: 2px; */
+    height: 64px;
+    width: 200px;
+    /* padding-top: 5px; */
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 3px solid #fd6e0a;
+    padding: 18px 35px;
+    text-align: center;
+
+}
+.banner{
+    margin: 0 50px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* main decoration */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* padding: 30px; */
+}
+
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background-color: bisque;
+    padding: 130px 150px;
+
+}
+.section-title{
+    /* margin-bottom: 20px; */
+    /* font-weight: 700; */
+    margin-top: 100px;
+}
+.section-description{
+    font-size: 14px;
+    color: #757575;
+    padding: 20px 100px 20px;
+}
+.about-info-container{
+    display: flex;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    padding: 5px 50px 5px;
+
+}
+.about-info{
+    padding: 5px 50px 5px;
+
+}
+.info-title{
+    font-size: 12px;
+    color: #757575;
+}
+.info-description{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* skill description under main>section*/
+.skill-section{
+    text-align: center;
+    /* padding: 20px; */
+}
+.skill-title{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.title-description{
+    padding: 0px 10px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 30px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    /* box-shadow: 10px #bfbdbd; */
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.4);
+
+}
+.skill>p{
+    padding: 10px 10px;
+    color: #565555;
+    font-size: 18px;
+}
+/* RESUME */
+.resume>h2{
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.resume-container{
+    display: flex;
+    padding-top: 50px;
+    gap: 24px;
+}
+.edex-description{
+    padding: 20px 0;
+    margin-bottom: 5px;
+    border-bottom: 5px #5655 solid
+}
+.edex-description>p{
+    color: #757575;
+    font-size: 14px;
+}
+.edex-description>h5{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.edex-description>h4{
+    font-size: 16px;
+}
+.edex>h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.cv-btn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* footer design */
+footer{
+    background-color: bisque;
+    margin-top: 50px;
+}
+.footer-design{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.footer-container{
+    display: flex;
+    margin-top: 50px;
+    padding-top: 20px;
+
+
+}
+.footer-container>div{
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.footer-container>div>h1{
+    margin-bottom: 20px;
+}
+.footer-container>div>form>input,textarea{
+    display: block;
+    margin-bottom: 15px;
+    width: 250px;
+    border: none;
+    padding: 5px;
+}
+.footer-design>.footer-container>div>a>image{
+    padding: 10px;
+    gap: 20px;
+}
+.footer-design>.footer-container>div>p{
+    margin-bottom: 30px;
+}
+
